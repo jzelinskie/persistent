@@ -25,9 +25,9 @@ import (
 // Each argument is followed by a delta change to its reference counter.
 // In case if no change is expected, the delta will be `-0`.
 
-// Map is an associative mapping from keys to values, both represented as
-// interface{}. Key comparison and iteration order is defined by a
-// client-provided function that implements a strict weak order.
+// Map is an associative mapping from keys to values.
+// Key comparison and iteration order is defined by a client-provided function
+// that implements a strict weak order.
 //
 // Maps can be Cloned in constant time.
 // Get, Store, and Delete operations are done on average in logarithmic time.
